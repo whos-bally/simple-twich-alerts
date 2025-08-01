@@ -4,15 +4,18 @@
   "description": "A simple web app that allows Twitch alerts to be added as a browser source in OBS",
   "license": "GPL-3.0",
   "author": "schaggis",
-  "type": "-",
+  "type": "commonjs",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "dotenv": "^17.2.1",
     "express": "^5.1.0"
   },
   "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.3",
     "@types/node": "^24.1.0"
   }
 }

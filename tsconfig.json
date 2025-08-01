@@ -9,7 +9,7 @@
     // See also https://aka.ms/tsconfig/module
     "module": "nodenext",
     "target": "esnext",
-    "types": [],
+    "types": ["node"],
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
@@ -25,9 +25,9 @@
     "exactOptionalPropertyTypes": true,
 
     // Style Options
-    // "noImplicitReturns": true,
+    "noImplicitReturns": true,
     // "noImplicitOverride": true,
-    // "noUnusedLocals": true,
+    "noUnusedLocals": true,
     // "noUnusedParameters": true,
     // "noFallthroughCasesInSwitch": true,
     // "noPropertyAccessFromIndexSignature": true,
